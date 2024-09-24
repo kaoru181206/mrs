@@ -8,6 +8,10 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.MapsId;
 
+/**
+ * 特定の日に予約可能な会議室の情報を格納するテーブル
+ */
+
 @Entity
 public class ReservableRoom implements Serializable {
 	@EmbeddedId

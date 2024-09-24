@@ -7,6 +7,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+/**
+ * 会議室の情報を格納するテーブル
+ */
+
 @Entity
 public class MeetingRoom implements Serializable {
 	@Id

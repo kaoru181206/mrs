@@ -49,4 +49,22 @@ public class ReservableRoomId implements Serializable {
 		
 		return true;
 	}
+
+	public Integer getRoomId() {
+		return roomId;
+	}
+
+	public void setRoomId(Integer roomId) {
+		this.roomId = roomId;
+	}
+
+	public LocalDate getReservedDate() {
+		return reservedDate;
+	}
+
+	public void setReservedDate(LocalDate reservedDate) {
+		this.reservedDate = reservedDate;
+	}
+	
+	
 }
